@@ -1,0 +1,91 @@
+.RM {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 250px;           /* Altura fija del contenedor */
+}
+
+/* Imagen dentro de RM */
+.RM img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto de realce */
+.RM img:hover{
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+
+.video{
+    background-color: #14284B;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto; 
+    border-radius: 10px;
+    
+
+}
+
+.titulofn{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.parrafo{
+    background-color: #14284B;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    min-height: 100px;
+    max-width: 700px;
+    margin: 0 auto;
+    max-height: 700px;;
+    padding: 20px;
+    border: 2px solid rgb(59, 58, 58);
+    box-shadow: 5px 5px 15px rgba(64, 64, 64, 0.5);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+.parrafo p{
+    margin-bottom: 20px;
+}
+
+.parrafo ul{
+    padding: 0;
+    margin: 0 auto;      /* centra horizontalmente */
+    width: fit-content;  /* ajusta al tamaño del contenido */
+    
+}
+
+.formulario{
+    text-align: center;
+}
+
+
+.cuerpo{
+    background-color: white;
+    color: black;
+
+    background-image: linear-gradient(
+        to right,
+        #14284B 0px,
+        #14284B 20px,      
+        transparent 12px,
+        transparent 35px,  
+        #14284B 35px,
+        #14284B 60px,      
+        transparent 47px
+    );
+
+    background-repeat: no-repeat;
+    background-size: 100px 200%;
+     background-position: 100px 20px;
+     
+}
+
+
+
